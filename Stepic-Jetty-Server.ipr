@@ -220,6 +220,17 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-util/9.4.2.v20170220/jetty-util-9.4.2.v20170220-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.freemarker:freemarker:2.3.23">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/freemarker/freemarker/2.3.23/freemarker-2.3.23-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/freemarker/freemarker/2.3.23/freemarker-2.3.23-sources.jar!/" />
+      </SOURCES>
+    </library>
   </component>
   <component name="masterDetails">
     <states>
