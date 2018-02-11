@@ -4,14 +4,16 @@ import org.eclipse.jetty.servlet.ServletHolder;
 
 public class Main {
     public static void main(String[] args) throws Exception{
-        Frontend frontend = new Frontend();
+        AllRequestsServlet allRequestsServlet = new AllRequestsServlet();
 
-        Server server = new Server(8080);
         ServletContextHandler context = new ServletContextHandler(ServletContextHandler.SESSIONS);
+        context.addServlet(new ServletHolder(allRequestsServlet), "/mirror");
+
+        Server server = new Server(9999);
         server.setHandler(context);
-        context.addServlet(new ServletHolder(frontend), "/authform");
 
         server.start();
+        System.out.println("Server started");
         server.join();
     }
 }
