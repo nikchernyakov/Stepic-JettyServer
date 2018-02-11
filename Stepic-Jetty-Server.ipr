@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Stepic-Jetty-Server" target="1.5" />
+      <module name="Stepic-Jetty-Server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="GradleLocalSettings">
@@ -41,7 +41,7 @@
       <module fileurl="file://$PROJECT_DIR$/Stepic-Jetty-Server.iml" filepath="$PROJECT_DIR$/Stepic-Jetty-Server.iml" />
     </modules>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="PropertiesComponent">
